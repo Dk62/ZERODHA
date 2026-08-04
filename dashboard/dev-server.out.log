@@ -1,0 +1,365 @@
+
+> dashboard@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view dashboard in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://192.168.31.119:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\components\Menu.js
+Syntax error: Unterminated JSX contents. (46:13) (46:13)
+[1m[31mERROR[39m[22m in [1m./src/components/Menu.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\zerodha clone\dashboard\src\components\Menu.js: Unterminated JSX contents. (46:13)
+
+[0m [90m 44 |[39m         
+ [90m 45 |[39m        
+[31m[1m>[22m[39m[90m 46 |[39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m    |[39m              [31m[1m^[22m[39m
+ [90m 47 |[39m     )[33m;[39m
+ [90m 48 |[39m
+ [90m 49 |[39m }[33m;[39m[0m
+    at constructor (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:369:19)
+    at FlowParserMixin.raise (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6620:19)
+    at FlowParserMixin.jsxReadToken (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4464:20)
+    at FlowParserMixin.getTokenFromCode (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4790:12)
+    at FlowParserMixin.getTokenFromCode (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3213:13)
+    at FlowParserMixin.nextToken (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:5803:10)
+    at FlowParserMixin.next (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:5713:10)
+    at FlowParserMixin.eat (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:5717:12)
+    at FlowParserMixin.expect (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6919:15)
+    at FlowParserMixin.jsxParseClosingElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4696:10)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4711:37)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4765:17)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4775:19)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:39
+    at FlowParserMixin.tryParse (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6928:20)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:18)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12455:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12522:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11701:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3607:18)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11357:23)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4780:20)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3565:18)
+    at FlowParserMixin.parseExpressionBase (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10805:23)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12450:16)
+    at FlowParserMixin.parseExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:17)
+    at FlowParserMixin.parseReturnStatement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:13171:28)
+    at FlowParserMixin.parseStatementContent (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12827:21)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12796:17)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:2934:24)
+    at FlowParserMixin.parseStatementListItem (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12776:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:13345:61)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\components\Menu.js
+  Line 46:13:  Parsing [1m[31merror[39m[22m[1m: Unterminated JSX contents. (46:13)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\components\TopBar.js
+Syntax error: Unexpected token (9:6) (9:6)
+[1m[31mERROR[39m[22m in [1m./src/components/TopBar.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\zerodha clone\dashboard\src\components\TopBar.js: Unexpected token (9:6)
+
+[0m [90m  7 |[39m       [33m<[39m[33mdiv[39m classNmae[33m=[39m[32m"row"[39m[33m>[39m
+ [90m  8 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"col-4"[39m
+[31m[1m>[22m[39m[90m  9 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 10 |[39m       
+ [90m 11 |[39m       [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m
+ [90m 12 |[39m     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at constructor (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:369:19)
+    at FlowParserMixin.raise (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6620:19)
+    at FlowParserMixin.unexpected (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6640:16)
+    at FlowParserMixin.jsxParseIdentifier (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4585:12)
+    at FlowParserMixin.jsxParseNamespacedName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4592:23)
+    at FlowParserMixin.jsxParseAttribute (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4668:22)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4683:28)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4084:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4678:17)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4702:33)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4765:17)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4775:19)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:39
+    at FlowParserMixin.tryParse (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6928:20)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:18)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12455:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12522:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11701:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3607:18)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11357:23)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4780:20)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3565:18)
+    at FlowParserMixin.parseExpressionBase (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10805:23)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12450:16)
+    at FlowParserMixin.parseExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:17)
+    at FlowParserMixin.parseReturnStatement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:13171:28)
+    at FlowParserMixin.parseStatementContent (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12827:21)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12796:17)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:2934:24)
+    at FlowParserMixin.parseStatementListItem (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12776:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:13345:61)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\components\TopBar.js
+  Line 9:6:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (9:6)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\components\TopBar.js
+Syntax error: Unexpected token (22:8) (22:8)
+[1m[31mERROR[39m[22m in [1m./src/components/TopBar.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\zerodha clone\dashboard\src\components\TopBar.js: Unexpected token (22:8)
+
+[0m [90m 20 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 21 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"col-8"[39m
+[31m[1m>[22m[39m[90m 22 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m 23 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 24 |[39m       
+ [90m 25 |[39m       [33m<[39m[33mMenu[39m [33m/[39m[33m>[39m[0m
+    at constructor (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:369:19)
+    at FlowParserMixin.raise (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6620:19)
+    at FlowParserMixin.unexpected (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6640:16)
+    at FlowParserMixin.jsxParseIdentifier (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4585:12)
+    at FlowParserMixin.jsxParseNamespacedName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4592:23)
+    at FlowParserMixin.jsxParseAttribute (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4668:22)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4683:28)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4084:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4678:17)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4702:33)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElementAt (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4714:32)
+    at FlowParserMixin.jsxParseElement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4765:17)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4775:19)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:39
+    at FlowParserMixin.tryParse (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:6928:20)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3514:18)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12455:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10821:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12522:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11701:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3607:18)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11357:23)
+    at FlowParserMixin.parseExprAtom (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:4780:20)
+    at FlowParserMixin.parseExprSubscripts (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11102:23)
+    at FlowParserMixin.parseUpdate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11087:21)
+    at FlowParserMixin.parseMaybeUnary (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:11067:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10920:61)
+    at FlowParserMixin.parseExprOps (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10925:23)
+    at FlowParserMixin.parseMaybeConditional (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10902:23)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10852:21)
+    at FlowParserMixin.parseMaybeAssign (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:3565:18)
+    at FlowParserMixin.parseExpressionBase (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10805:23)
+    at D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:39
+    at FlowParserMixin.allowInAnd (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12450:16)
+    at FlowParserMixin.parseExpression (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:10801:17)
+    at FlowParserMixin.parseReturnStatement (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:13171:28)
+    at FlowParserMixin.parseStatementContent (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12827:21)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12796:17)
+    at FlowParserMixin.parseStatementLike (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:2934:24)
+    at FlowParserMixin.parseStatementListItem (D:\zerodha clone\dashboard\node_modules\@babel\parser\lib\index.js:12776:17)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\components\TopBar.js
+  Line 22:8:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (22:8)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
