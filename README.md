@@ -1,2 +1,2 @@
-# Zerodha_clone
-This is clone project of zerodha stock  market trading platform.
+# ZERODHA
+This is a clone project of the Zerodha stock market trading platform.
