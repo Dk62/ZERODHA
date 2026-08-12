@@ -6,6 +6,7 @@ import Stats from './stats';
 import Pricing from './pricing';
 
 
+
 import OpenAccount from '../OpenAccount';
 function HomePage() {
     return ( 
