@@ -104,6 +104,7 @@ router.post("/api/signup", async (req, res) => {
     await newUser.save();
 
     return res.status(201).json({
+      success:true,
       message: "Account created successfully.",
     });
   } catch (error) {
