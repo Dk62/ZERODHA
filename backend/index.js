@@ -23,8 +23,8 @@ const app = express();
 const router = express.Router();
 
 const allowedOrigins = [
-  "http://localhost:3000",
-  "http://localhost:3001"
+  "http://localhost:3000" || FRONTEND_URL,
+  "http://localhost:3001" || DASBOARD_URL,
 ];
 
 app.use(cors({
